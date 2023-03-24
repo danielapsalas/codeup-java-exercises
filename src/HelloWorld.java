@@ -41,5 +41,27 @@ public class HelloWorld {
 //          assigning an integer value does? Change your code to declare myNumber as a float. Assign
 //          the value 3.14 to it. What happens? What are two ways we could fix this?
 //            myNumber = 3.14; //You have to put a cast when you use long
+
+//        Copy and paste the following code blocks one at a time and execute them
+//        int x = 5;
+//        System.out.println(x++);
+//        System.out.println(x);
+//
+//        int x = 5;
+//        System.out.println(++x);
+//        System.out.println(x);
+
+//        What is the difference between the above code blocks? Explain why the code outputs what it does.
+
+        int x = 5;
+        System.out.println("x: " + x++);//this increments after the variable is compiled, that's why its 5
+        System.out.println("x, post decrement: " + x);//and now its 6 because its been incremented
+
+        int y = 5;
+        System.out.println("y: " + ++y);//this increments before the variable is compiled, that's why its 6
+        System.out.println("y, post decrement: " + y);//and this stays the same because it's already been incremented
+
+
+
     }
 }
