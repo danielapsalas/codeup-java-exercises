@@ -17,7 +17,7 @@ public class HelloWorld {
 //            myString = 'A'; You get an incompatible types
 
 //        4.Change your code to assign the value 3.14159 to myString. What happens?
-
+//            myString = 3.14159; You get an incompatible types
 
 //        5.Declare an long variable named myNumber, but do not assign anything to it. Next
 //          try to print out myNumber to the console. What happens?
