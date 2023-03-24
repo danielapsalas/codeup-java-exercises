@@ -95,8 +95,16 @@ public class HelloWorld {
         System.out.println("k = k / h: " + k);
         System.out.println("h = h - k: " + h);
 
+//         13.What happens if you assign a value to a numerical variable that is larger
+//         (or smaller) than the type can hold? What happens if you increment a numeric
+//         variable past the type's capacity?
+//
+//         Hint: Integer.MAX_VALUE is a class constant (we'll learn more about these later)
+//         that holds the maximum value for the int type.
+        //It either resets or gives you an error
 
-
+        byte maxByte = 127;
+        System.out.println(++maxByte);
 
     }
 }
