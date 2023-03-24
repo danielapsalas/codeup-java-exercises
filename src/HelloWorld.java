@@ -23,8 +23,9 @@ public class HelloWorld {
 //          try to print out myNumber to the console. What happens?
 //            long myNumber = ;
 //            System.out.println(myNumber); You get java: illegal start of expression
-//        6.Change your code to assign the value 3.14 to myNumber. What do you notice?
 
+//        6.Change your code to assign the value 3.14 to myNumber. What do you notice?
+//            long myNumber = (long) 3.14; You have to put a cast
 
 //        7.Change your code to assign the value 123L (Note the 'L' at the end) to myNumber.
 
