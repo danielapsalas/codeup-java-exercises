@@ -61,7 +61,8 @@ public class HelloWorld {
         System.out.println("y: " + ++y);//this increments before the variable is compiled, that's why its 6
         System.out.println("y, post decrement: " + y);//and this stays the same because it's already been incremented
 
-
+//        Try to create a variable named class. What happens?
+//        int class = // doesn't let you because class is reserved
 
     }
 }
