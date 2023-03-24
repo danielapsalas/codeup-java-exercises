@@ -28,7 +28,10 @@ public class HelloWorld {
 //            long myNumber = (long) 3.14; You have to put a cast
 
 //        7.Change your code to assign the value 123L (Note the 'L' at the end) to myNumber.
-
+            float myNumber = 123L;
+            long my2ndNumber = 123L;
+            System.out.println("float: " + myNumber);
+            System.out.println("long: " + my2ndNumber);
 
 //        8.Change your code to assign the value 123 to myNumber.
 
