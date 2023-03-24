@@ -61,8 +61,17 @@ public class HelloWorld {
         System.out.println("y: " + ++y);//this increments before the variable is compiled, that's why its 6
         System.out.println("y, post decrement: " + y);//and this stays the same because it's already been incremented
 
-//        Try to create a variable named class. What happens?
-//        int class = // doesn't let you because class is reserved
+//        11.Try to create a variable named class. What happens?
+//           int class = // doesn't let you because class is reserved
+
+//        Object is the most generic type in Java. You can assign any value to a variable of type Object.
+//        What do you think will happen when the following code is run?
+//        String theNumberThree = "three";
+//        Object o = theNumberThree;
+//        int three = (int) o; //doesn't compile
+
+//        int three = (int) "three";
+//        System.out.println(three);//both dont compile: error states, java: incompatible types: java.lang.String cannot be converted to int
 
     }
 }
