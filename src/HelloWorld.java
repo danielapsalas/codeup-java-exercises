@@ -34,7 +34,8 @@ public class HelloWorld {
             System.out.println("long: " + my2ndNumber);
 
 //        8.Change your code to assign the value 123 to myNumber.
-
+            myNumber  = 123;
+            System.out.println(myNumber);
 
 //        9.hy does assigning the value 3.14 to a variable declared as a long not compile, but
 //          assigning an integer value does? Change your code to declare myNumber as a float. Assign
