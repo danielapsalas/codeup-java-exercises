@@ -62,5 +62,16 @@ public class ConsoleExercises {
         String sentence = my1stWord.nextLine();  // Read user input
         System.out.println("User sentence: " + sentence);  // Output user input
 
+//        Calculate the perimeter and area of Codeup's classrooms.
+//        1.Prompt the user to enter values of length and width of a classroom at Codeup
+//                (or your room if virtual).
+//
+//        Use the nextLine method each time you need to get user input. In this case, we
+//        need it twice, once to get the user input for the length and again to get the
+//        user input for the width. Parse the resulting strings to a numeric type.
+//
+//        Assume that the rooms are perfect rectangles.
+//        Assume that the user will enter valid numeric data for length and width.
+
     }
 }
