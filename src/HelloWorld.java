@@ -21,8 +21,8 @@ public class HelloWorld {
 
 //        5.Declare an long variable named myNumber, but do not assign anything to it. Next
 //          try to print out myNumber to the console. What happens?
-
-
+//            long myNumber = ;
+//            System.out.println(myNumber); You get java: illegal start of expression
 //        6.Change your code to assign the value 3.14 to myNumber. What do you notice?
 
 
