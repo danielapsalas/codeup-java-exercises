@@ -40,9 +40,10 @@ public class HelloWorld {
 //        9.Why does assigning the value 3.14 to a variable declared as a long not compile, but
 //          assigning an integer value does? Change your code to declare myNumber as a float. Assign
 //          the value 3.14 to it. What happens? What are two ways we could fix this?
-//            myNumber = 3.14; //You have to put a cast when you use long
+            myNumber = (float)3.14; //You have to put a cast when you use long
+            System.out.println("9: " + myNumber);
 
-//        Copy and paste the following code blocks one at a time and execute them
+//        10.Copy and paste the following code blocks one at a time and execute them
 //        int x = 5;
 //        System.out.println(x++);
 //        System.out.println(x);
@@ -72,6 +73,30 @@ public class HelloWorld {
 
 //        int three = (int) "three";
 //        System.out.println(three);//both dont compile: error states, java: incompatible types: java.lang.String cannot be converted to int
+
+//        12. Rewrite the following expressions using the relevant shorthand assignment operators:
+        int l = 4;
+//        l = l + 5; //make this shorthand
+        l += 5;
+        System.out.println("l = l + 5: " + l);
+
+        int a = 3;
+        int b = 4;
+//        b = b * a;
+        b *= a;
+        System.out.println("b = b * a: " + b);
+
+        int k = 10;
+        int h = 2;
+//        k = k / h;
+//        h = h - k;
+        k /= h;
+        h -= k;
+        System.out.println("k = k / h: " + k);
+        System.out.println("h = h - k: " + h);
+
+
+
 
     }
 }
