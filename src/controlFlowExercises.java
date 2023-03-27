@@ -94,7 +94,16 @@ public class controlFlowExercises {
 //                5      | 25      | 125
 
 
-//        Scanner userNum = new Scanner(System.in);  // Create a Scanner object
+        Scanner usersNum = new Scanner(System.in);  // Create a Scanner object
+        boolean numInput = true;
+
+        do{
+            System.out.println("\nEnter a number from 1 - 100: ");
+            int usersInput = usersNum.nextInt();
+
+
+
+        }while(numInput);
 //        System.out.println("\nEnter a number: ");
 //
 
@@ -114,25 +123,25 @@ public class controlFlowExercises {
 //        D : 66 - 60
 //        F : 59 - 0
 
-        Scanner usersNum = new Scanner(System.in);  // Create a Scanner object
-        boolean usersGrade = true;
-
-        do {
-            System.out.println("\nEnter a number from 1 - 100: ");
-            int usersInput = usersNum.nextInt();
-
-            if(usersInput >= 88){
-                System.out.println("A");  // Output user input
-            }else if(usersInput >= 80){
-                System.out.println("B");  // Output user input
-            }else if(usersInput >= 67){
-                System.out.println("C");  // Output user input
-            }else if(usersInput >= 60){
-                System.out.println("D");  // Output user input
-            }else if(usersInput >= 0){
-                System.out.println("F");  // Output user input
-            }
-        }while (usersGrade);
+//        Scanner usersGrade = new Scanner(System.in);  // Create a Scanner object
+//        boolean gradeInput = true;
+//
+//        do {
+//            System.out.println("\nEnter a number from 1 - 100: ");
+//            int usersInput = usersGrade.nextInt();
+//
+//            if(usersInput >= 88){
+//                System.out.println("A");  // Output user input
+//            }else if(usersInput >= 80){
+//                System.out.println("B");  // Output user input
+//            }else if(usersInput >= 67){
+//                System.out.println("C");  // Output user input
+//            }else if(usersInput >= 60){
+//                System.out.println("D");  // Output user input
+//            }else if(usersInput >= 0){
+//                System.out.println("F");  // Output user input
+//            }
+//        }while (gradeInput);
     }
 }
 
