@@ -28,11 +28,17 @@ public class controlFlowExercises {
 //        16
 //        256
 //        65536
-        int x = 0;
+//        int x = 0;
+//        do {
+//            System.out.println(x);
+//            x += 2;
+//        } while (i <= 100);
+
+        int y = 0;
         do {
-            System.out.println(x);
-            x += 2;
-        } while (i <= 100);
+            System.out.println(y);
+            y -= 2;
+        } while (i >= -10);
     }
 }
 
