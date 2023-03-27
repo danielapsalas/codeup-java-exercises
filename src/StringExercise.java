@@ -19,14 +19,17 @@ public class StringExercise {
 
         String education = "We don't need no education";
         String control = "We don't need no thought control";
+        System.out.println(education + " " + control);
 
         String inside = "Check \"this\" out!, \"s inside of \"! ";
+        System.out.println(inside);
 
         String windows = "In windows, the main drive is usually C:\\";
-
-        System.out.println(education);
-        System.out.println(control);
-        System.out.println(inside);
         System.out.println(windows);
+
+        String backslashes = "I can do backslashes \\, double backslashes \\\\, and the amazing triple backslash \\\\\\!";
+        System.out.println(backslashes);
+
     }
+
 }
