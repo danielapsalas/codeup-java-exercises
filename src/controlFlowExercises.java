@@ -10,11 +10,11 @@ public class controlFlowExercises {
 //        Your output should look like this:
 //
 //        5 6 7 8 9 10 11 12 13 14 15
-        int i = 5;
-        while (i <= 15) {
-            System.out.print(" " + i);
-            i++;
-        }
+//        int i = 5;
+//        while (i <= 15) {
+//            System.out.print(" " + i);
+//            i++;
+//        }
 
 //        b.Do While
 //
@@ -28,17 +28,24 @@ public class controlFlowExercises {
 //        16
 //        256
 //        65536
+//
 //        int x = 0;
 //        do {
 //            System.out.println(x);
 //            x += 2;
-//        } while (i <= 100);
-
-        int y = 0;
+//        } while (x <= 100);
+//
+//        int y = 0;
+//        do {
+//            System.out.println(y);
+//            y -= 2;
+//        } while (y >= -10);
+//
+        int z = 2;
         do {
-            System.out.println(y);
-            y -= 2;
-        } while (i >= -10);
+            System.out.println(z);
+            z *= 2;
+        } while (z < 1000000);
     }
 }
 
