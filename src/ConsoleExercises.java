@@ -73,18 +73,18 @@ public class ConsoleExercises {
 //        Assume that the rooms are perfect rectangles.
 //        Assume that the user will enter valid numeric data for length and width.
 
-//        Scanner userLength = new Scanner(System.in);  // Create a Scanner object
-//        System.out.println("\nEnter the room's length: ");
-//
-//        int length = userLength.nextInt();  // Read user input
-//        System.out.println("User's length: " + length);  // Output user input
-//
-//        Scanner userWidth = new Scanner(System.in);  // Create a Scanner object
-//        System.out.println("\nEnter the room's width: ");
-//
-//        int width = userWidth.nextInt();  // Read user input
-//        System.out.println("User's width: " + width);  // Output user input
-//        System.out.println("User's perimeter = " + (width + width + length + length));
-//        System.out.println("User's area: " + (width * length));
+        Scanner userLength = new Scanner(System.in);  // Create a Scanner object
+        System.out.println("\nEnter the room's length: ");
+
+        int length = userLength.nextInt();  // Read user input
+        System.out.println("User's length: " + length);  // Output user input
+
+        Scanner userWidth = new Scanner(System.in);  // Create a Scanner object
+        System.out.println("\nEnter the room's width: ");
+
+        int width = userWidth.nextInt();  // Read user input
+        System.out.println("User's width: " + width);  // Output user input
+        System.out.println("User's perimeter = " + (width + width + length + length));
+        System.out.println("User's area: " + (width * length));
     }
 }
