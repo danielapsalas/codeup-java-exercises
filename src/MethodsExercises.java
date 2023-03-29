@@ -1,6 +1,15 @@
 import java.util.Scanner;
 public class MethodsExercises {
 
+    public static void main(String[] args) {
+        System.out.println("addition: " + adding(10, 1));
+        System.out.println("subtraction: " + subtracting(10, 1));
+        System.out.println("multiplying: " + multiplying(10, 1));
+        System.out.println("dividing: " + dividing(10, 1));
+        System.out.println("modulus: " + modulus(10, 1));
+        System.out.println(factorial());
+    }
+
 //    1.Basic Arithmetic
 //
 //    Create four separate methods. Each will perform an arithmetic operation:
@@ -37,15 +46,6 @@ public class MethodsExercises {
         return num1 % num2;
     }
 
-    public static void main(String[] args) {
-        System.out.println("addition: " + adding(10, 1));
-        System.out.println("subtraction: " + subtracting(10, 1));
-        System.out.println("multiplying: " + multiplying(10, 1));
-        System.out.println("dividing: " + dividing(10, 1));
-        System.out.println("modulus: " + modulus(10, 1));
-        getInteger(1, 10);
-    }
-
 
 //    2.Create a method that validates that user input is in a certain range and returns that input as an integer if it
 //    is within the given range. If not, prompt the user to input their number again until the input is within range.
@@ -61,6 +61,7 @@ public class MethodsExercises {
 //    If the input is invalid, prompt the user again.
 //
 //    Hint: recursion might be helpful here!
+
     public static int getInteger(int min, int max) {
         Scanner userInt = new Scanner(System.in);
         System.out.printf("Enter a number. Minimum has to be %s and the Maximum is %s", min, max);
@@ -93,6 +94,13 @@ public class MethodsExercises {
 //            3! = 1 x 2 x 3       = 6
 //            4! = 1 x 2 x 3 x 4   = 24
 
-
+    public static long factorial() {
+        long integer = getInteger(1, 10);
+        long total = 1;
+        for(long i = 1; i <= integer; i++){
+            total *= i;
+        }
+        return total;
+    }
 }
 
