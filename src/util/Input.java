@@ -39,7 +39,7 @@ public class Input {
         return userNum;
     }
 
-    double getDouble(){
+    public double getDouble(){
         return this.scanner.nextDouble();
     }
 
