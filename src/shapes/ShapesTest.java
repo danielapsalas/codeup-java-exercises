@@ -16,7 +16,7 @@ public class ShapesTest {//Test your code by creating a new class, ShapesTest (a
 
         //create a variable of the type Rectangle named box2 and assign it a new instance of
         // the Square class that has a side value of 5.
-        Rectangle box2 = new Square(5);
+        Square box2 = new Square(5);
         System.out.println("box2 rectangle area: " + box2.getArea());//verify that the getPerimeter and getArea methods return 20 and 25, respectively.
         System.out.println("box2 perimeter: " + box2.getPerimeter() + "\n");
 
