@@ -18,12 +18,12 @@ public class Highlow {
 //    If a user guesses the number, the game should declare "GOOD GUESS!"
 
     public static void main(String[] args) {
-    highLow();
+        highLow();
     }
 
     public static int randomNumber(){
         Random random = new Random();
-        return random.nextInt(100) + 1;
+        return random.nextInt(10) + 1;
     }
 
     public static String highLow(){
