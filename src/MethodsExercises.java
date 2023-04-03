@@ -122,8 +122,9 @@ public class MethodsExercises {
         int dice = userRoll.nextInt();
 
         Random random = new Random();
-        int diceRandom = random.nextInt(dice) + 1;
-        return diceRandom;
+        return random.nextInt(dice) + 1;
     }
+
+
 
 }
