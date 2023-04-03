@@ -26,11 +26,11 @@ public class Input {
 
     }
 
-    int getInt(){
+    public int getInt(){
         return this.scanner.nextInt();
     }
 
-    int getInt(int min, int max){
+    public int getInt(int min, int max){
         int userNum;
         do{
             System.out.printf("Please enter a number between %d and %d", min, max);
