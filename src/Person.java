@@ -1,6 +1,7 @@
 public class Person {
 
-//    Object basics
+    public String getName;
+    //    Object basics
 //
 //    Create Person class inside of src that has a private name field that is a string, and the following methods:
 //

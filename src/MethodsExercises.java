@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 public class MethodsExercises {
 
@@ -8,6 +9,9 @@ public class MethodsExercises {
         System.out.println("dividing: " + dividing(10, 1));
         System.out.println("modulus: " + modulus(10, 1));
         System.out.println(factorial());
+        int firstSide = diceRoll();
+        int secondSide = diceRoll();
+        System.out.println("Your first side shows " + firstSide + " Second side shows " + secondSide);
     }
 
 //    1.Basic Arithmetic
@@ -102,5 +106,24 @@ public class MethodsExercises {
         }
         return total;
     }
-}
 
+//    Create an application that simulates dice rolling.
+//
+//        Ask the user to enter the number of sides for a pair of dice.
+//        Prompt the user to roll the dice.
+//        "Roll" two n-sided dice, display the results of each, and then ask the user if
+//        he/she wants to roll the dice again.
+//        Use static methods to implement the method(s) that generate the random numbers.
+//        Use the .random method of the java.lang.Math class to generate random numbers.
+
+    public static int diceRoll(){
+        Scanner userRoll = new Scanner(System.in);
+        System.out.println("Enter a number of sides for a pair of dice");
+        int dice = userRoll.nextInt();
+
+        Random random = new Random();
+        int diceRandom = random.nextInt(dice) + 1;
+        return diceRandom;
+    }
+
+}
