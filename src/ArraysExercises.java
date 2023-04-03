@@ -3,7 +3,7 @@
 //
 //    String personName;
 //    static int personCount = 0;
-//    public Person(String personName){
+//    public void Person(String personName){
 //        this.personName = personName; //Assign a unique String to this property
 //        personCount++; //Count up this 'universal' / static property
 //    }
@@ -14,10 +14,9 @@
 //        Person fernando = new Person("Fernando");
 //        Person[] family = {ayden, nohemi, daniela, fernando}; //[0 = gene,1 = jenna, 2 = daniela,3 = gianna]
 //        System.out.println(Arrays.toString(family));
-//        Person[] newSquad = addPerson(family, new Person("Luis"));
-//        newSquad [0 = gene,1 = jenna, 2 = daniela,3 = gianna, 4= kenny] a length of FIVE with 0 - 4 as indices
-//        for (Person hero : newSquad) {
-//            System.out.printf("%s is my name %n", personName);
+//        Person[] newMember = addPerson(family, new Person("Luis"));
+//        for (Person person : newMember) {
+//            System.out.printf("%s is my name %n", person.personName);
 //        }
 //    }
 //
