@@ -2,6 +2,8 @@ package shapes;
 
 
 public class Square extends Quadrilateral{//Change your existing Square class to extend Quadrilateral.
+
+
     public Square(double side) { //intellij makes this for us
         super(side, side);
     }
@@ -14,19 +16,18 @@ public class Square extends Quadrilateral{//Change your existing Square class to
 
     @Override
     public void setWidth(double width) {
-        this.length = width;
         this.width = width;
+        this.length = width;
     }
 
     @Override
     public double getPerimeter() {//intellij makes this for us
-        System.out.println("Perimeter of square: ");
+        System.out.println("square");
         return (4 * this.width);
     }
 
     @Override
     public double getArea() {
-        System.out.println("Area of square: ");
         return Math.pow(this.width, 2);
     }
 
