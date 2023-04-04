@@ -8,22 +8,26 @@ public class Square extends Quadrilateral{//Change your existing Square class to
 
     @Override
     public void setLength(double length) {
-
+        this.length = length;
+        this.width = length;
     }
 
     @Override
     public void setWidth(double width) {
-
+        this.length = width;
+        this.width = width;
     }
 
     @Override
     public double getPerimeter() {//intellij makes this for us
-        return 0;
+        System.out.println("Perimeter of square: ");
+        return (4 * this.width);
     }
 
     @Override
     public double getArea() {
-        return 0;
+        System.out.println("Area of square: ");
+        return Math.pow(this.width, 2);
     }
 
 }
