@@ -1,6 +1,34 @@
 package shapes;
 
-public class Square extends Rectangle{//Create a class named Square, also inside of shapes, that extends Rectangle
+
+public class Square extends Quadrilateral{//Change your existing Square class to extend Quadrilateral.
+    public Square(double side) { //intellij makes this for us
+        super(side, side);
+    }
+
+    @Override
+    public void setLength(double length) {
+
+    }
+
+    @Override
+    public void setWidth(double width) {
+
+    }
+
+    @Override
+    public double getPerimeter() {//intellij makes this for us
+        return 0;
+    }
+
+    @Override
+    public double getArea() {
+        return 0;
+    }
+
+}
+
+//public class Square extends Rectangle{//Create a class named Square, also inside of shapes, that extends Rectangle
 //    private double oneSide;
 //    public Square(double oneSide) {// Square should define a constructor that accepts one argument, side,
 //        super(oneSide, oneSide);//and calls the parent's constructor to set both the length and width to the value of side
@@ -17,6 +45,6 @@ public class Square extends Rectangle{//Create a class named Square, also inside
 //    public double getArea(){
 //        return (Math.pow(oneSide, 2));
 //    }
-}
+//}
 
 

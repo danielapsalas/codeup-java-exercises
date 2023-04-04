@@ -1,6 +1,38 @@
 package shapes;
 
-public class Rectangle {//Inside of your shapes directory, create a class named Rectangle
+
+public class Rectangle extends Quadrilateral implements Measurable{
+
+    //IntelliJ can automatically create the skeleton of all the methods that need to be implemented.
+    public Rectangle(double length, double width) {
+        super(length, width);
+    }//Change your existing Rectangle class to inherit from Quadrilateral and implement Measurable.
+
+
+    //IntelliJ can automatically create the skeleton of all the methods that need to be implemented.
+    @Override
+    public void setLength(double length) {
+
+    }
+
+    @Override
+    public void setWidth(double width) {
+
+    }
+
+    @Override
+    public double getPerimeter() {
+        return 0;
+    }
+
+    @Override
+    public double getArea() {
+        return 0;
+    }
+
+}
+
+//public class Rectangle {//Inside of your shapes directory, create a class named Rectangle
 //    protected double length; // It should have protected properties for both length and width
 //    protected double width; //and width
 //
@@ -17,5 +49,5 @@ public class Rectangle {//Inside of your shapes directory, create a class named 
 //    public double getPerimeter() {
 //        return ((this.width * 2) + (this.length * 2));
 //    }
-}
+//}
 
