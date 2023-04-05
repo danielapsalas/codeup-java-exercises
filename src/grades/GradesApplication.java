@@ -52,10 +52,10 @@ public class GradesApplication { //Create a class named GradesApplication
         do {
             System.out.println("which students info do you want?");//ask the user which student they would like to see more information abou
             String userInput = input.getString();//enter a GitHub username (i.e. one of the keys in your map).
-
-            if(students.containsKey(userInput)){//the given username does exist, display information about that student, including their name and their grades.
-                System.out.println("student name: " + students.get(userInput).getName() +  "\nstudent grade average: "+ students.get(userInput).getGradeAverage());
-            }else{
+            if (students.containsKey(userInput)) {//the given username does exist, display information about that student, including their name and their grades.
+                System.out.println("student name: " + students.get(userInput).getName() + "\nstudent grade average: " + students.get(userInput).getGradeAverage() +
+                        "\nall of the student's grades: " + students.get(userInput).getGrades());//BONUS: Display all the student's grades in addition to the grade average.
+            } else {
                 System.out.println("Username Invalid...Try again!");//e given input does not match up with a key in your map, tell the user that no users with that username were found.
             }
 
