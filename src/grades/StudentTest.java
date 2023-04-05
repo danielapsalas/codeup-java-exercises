@@ -10,8 +10,10 @@ public class StudentTest {
         Student ayden = new Student("ayden");
         Student milo = new Student("milo");
         daniela.addGrade(96);
+        daniela.addGrade(20);
+        daniela.addGrade(87);
         ayden.addGrade(90);
         milo.addGrade(50);
-        System.out.println("student constructor : " + daniela.getName());
+        System.out.println("student name: " + daniela.getName() +  "\nstudent grade: "+ daniela.getGradeAverage());
     }
 }

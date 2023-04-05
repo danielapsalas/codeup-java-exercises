@@ -23,6 +23,10 @@ public class Student {//Create a class named Student
         this.grades.add(grade); // adds the given grade to the grades property
     }
 
+    public ArrayList<Integer> getGrades() {
+        return grades;
+    }
+
     // returns the average of the students grades
     public double getGradeAverage() {
         double total = 0;
